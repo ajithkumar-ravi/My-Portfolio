@@ -249,16 +249,21 @@ nav ul li a:hover::after{
     margin-bottom: 20px;
 }
 
-.work .link{
+.layer a{
     width: 40px;
     height: 40px;
     background: #fff;
     background-image: #fff;
     background-size: 50px;
     border-radius: 50%;
+    border-color: black;
     margin-top: 20px;
     line-height: 60px;
     align-items: center;
     
     
+}
+.layer p{
+    font-size: 10px;
+    margin-top: 10px;
 }
