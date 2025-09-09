@@ -387,6 +387,14 @@ form .btn2 {
     cursor: pointer;
 }
 
+.copyright{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background: #262626;
+    padding: 25px 0;
+    margin-top: 20px;
+    font-weight: 300;
+}
 
 /* ----------------------------CSS For Mobile Screen------------------------- */
-
