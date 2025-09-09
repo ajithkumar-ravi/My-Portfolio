@@ -423,6 +423,7 @@ nav .fas {
     nav img{
         width: 20px;
         height: 20px;
+        cursor: pointer;
     }
     nav ul{
         background: #ff004f;
@@ -433,6 +434,7 @@ nav .fas {
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
+        transition: right 0.7s;
     }
     nav ul li{
         display: block;
