@@ -9,6 +9,9 @@ body {
     background: #080808;
     color: #fff;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 #header {
     width: 100%;
@@ -28,6 +31,8 @@ nav {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    /* position: fixed; */
+    
 }
 
 .logo {
@@ -42,6 +47,10 @@ nav ul li {
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
+    
+}
+nav img{
+    cursor: pointer;
 }
 
 nav ul li a {
@@ -477,5 +486,12 @@ nav .fas {
         font-size: 14px;
     }
 
+
+}
+
+#msg{
+    color: #61b752;
+    display: block;
+    margin-top: -40px;
 
 }
