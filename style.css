@@ -324,12 +324,12 @@ nav ul li a:hover::after {
     margin-top: 30px;
 }
 
-.contact-left p img {
+.contact-left img {
     margin-top: 5px;
     margin-right: 10px;
     font-size: 25%;
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
 }
 
 
@@ -460,4 +460,22 @@ nav .fas {
     .about-col-2{
         font-size: 14px;
     }
+
+    .tab-links{
+        font-size: 16px;
+        margin-right: 20px;
+    }
+
+    .social-icons img {
+        margin-right: 18px;
+    }
+
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+    }
+    .copyright{
+        font-size: 14px;
+    }
+
+
 }
