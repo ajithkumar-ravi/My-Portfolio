@@ -9,7 +9,8 @@ body {
     background: #080808;
     color: #fff;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
 
@@ -32,11 +33,11 @@ nav {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* position: fixed; */ 
+    /* position: fixed; */
 }
 
 
-.navContainer{
+.navContainer {
     position: fixed;
     width: 100%;
     top: 0;
@@ -44,7 +45,7 @@ nav {
     background: black;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 
@@ -63,9 +64,10 @@ nav ul li {
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
-    
+
 }
-nav img{
+
+nav img {
     cursor: pointer;
 }
 
@@ -339,18 +341,23 @@ nav ul li a:hover::after {
 }
 
 /* -------------------------------Contact--------------------------------  */
-.contact-container{
+
+
+.contact-container {
+
     background-color: #080808;
 }
 
 .contact-left {
+    padding: 50px 0;
     flex-basis: 35%;
-    
+
 }
 
 .contact-right {
+    padding: 60px 0;
     flex-basis: 60%;
-   
+
 }
 
 .contact-left p {
@@ -425,16 +432,16 @@ form .btn2 {
     color: #fff;
     text-align: center;
     background: #262626;
-    padding: 25px 0;
+    padding: 50px 0;
     margin-top: 20px;
     font-weight: 300;
 }
 
-.section{
+.section {
     position: sticky;
     top: 0;
     height: 100vh;
-    
+
 }
 
 
@@ -461,12 +468,13 @@ nav .fas {
         display: block;
     }
 
-    nav img{
+    nav img {
         width: 20px;
         height: 20px;
         cursor: pointer;
     }
-    nav ul{
+
+    nav ul {
         background: #ff004f;
         position: fixed;
         top: 0;
@@ -477,32 +485,37 @@ nav .fas {
         z-index: 2;
         transition: right 0.7s;
     }
-    nav ul li{
+
+    nav ul li {
         display: block;
         margin: 25px;
     }
-    nav ul .fas{
+
+    nav ul .fas {
         position: absolute;
         top: 25px;
         left: 25px;
         cursor: pointer;
     }
 
-    .sub-title{
+    .sub-title {
         font-size: 30px;
     }
 
-    .about-col-1, .about-col-2{
+    .about-col-1,
+    .about-col-2 {
         flex-basis: 100%;
     }
-    .about-col-1{
+
+    .about-col-1 {
         margin-bottom: 30px;
     }
-    .about-col-2{
+
+    .about-col-2 {
         font-size: 14px;
     }
 
-    .tab-links{
+    .tab-links {
         font-size: 16px;
         margin-right: 20px;
     }
@@ -511,17 +524,19 @@ nav .fas {
         margin-right: 18px;
     }
 
-    .contact-left, .contact-right{
+    .contact-left,
+    .contact-right {
         flex-basis: 100%;
     }
-    .copyright{
+
+    .copyright {
         font-size: 14px;
     }
 
 
 }
 
-#msg{
+#msg {
     color: #61b752;
     display: block;
     margin-top: -40px;
