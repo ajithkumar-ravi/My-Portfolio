@@ -22,6 +22,7 @@ html{
 
 }
 
+
 .container {
     padding: 10px 10%;
 }
@@ -31,14 +32,29 @@ nav {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* position: fixed; */
-    
+    /* position: fixed; */ 
 }
 
+
+.navContainer{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background: black;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+
+
 .logo {
-    width: 92px;
-    height: 60px;
+    width: 72px;
+    height: 70px;
     border-radius: 10%;
+    left: 50px;
+    margin-left: 20px;
 
 
 }

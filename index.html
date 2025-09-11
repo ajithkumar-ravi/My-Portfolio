@@ -10,21 +10,22 @@
 </head>
 
 <body>
-    <div id="header">
+    <div id="header" class="section">
+        <nav class="navContainer">
+            <img src="images/Transparent logo.png" href="#header" alt="logo" class="logo">
+            <ul id="sideMenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <img src="images/close.png" class="fas" onclick="closeMenu()" alt="crose icon">
+            </ul>
+            <img src="images/more.png" class="fas" onclick="openMenu()" alt="">
+        </nav>
         <div class="container">
-            <div class="navContainer">
-                <nav>
-                    <img src="images/ak.jpg" href="#header" alt="logo" class="logo">
-                    <ul id="sideMenu">
-                        <li><a href="#header">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#project">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <img src="images/close.png" class="fas" onclick="closeMenu()" alt="crose icon">
-                    </ul>
-                    <img src="images/more.png" class="fas" onclick="openMenu()" alt="">
-                </nav>
+            <div class="">
+
             </div>
 
             <div class="header-text">
@@ -34,7 +35,7 @@
         </div>
     </div>
     <!-- ------------------------About------------------------ -->
-    <div id="about">
+    <div id="about" class="section">
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
@@ -89,7 +90,7 @@
 
 
     <!-- -----------------------Services---------------------------->
-    <div id="services">
+    <div id="services" class="section">
         <div class="container">
             <h1 class="sub-title">My services</h1>
             <div class="services-list">
@@ -123,7 +124,7 @@
     </div>
 
     <!-- ---------------------------Projects-------------------------- -->
-    <div id="project">
+    <div id="project" class="section">
         <div class="container">
             <h1 class="sub-title">My Projects</h1>
             <div class="project-list">
@@ -167,7 +168,7 @@
 
     <!-- -------------------------------Contact--------------------------------     -->
 
-    <div id="contact">
+    <div id="contact" class="section">
         <div class="container">
             <div class="row">
                 <div class="contact-left">
