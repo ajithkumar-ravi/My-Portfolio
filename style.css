@@ -443,6 +443,9 @@ form .btn2 {
     height: 100vh;
 
 }
+#msg{
+    padding: 30px 0;
+}
 
 
 /* ----------------------------CSS For Mobile Screen------------------------- */
