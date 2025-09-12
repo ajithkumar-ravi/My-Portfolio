@@ -43,11 +43,15 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>I'm a Software Developer. I am Currently Pursuing BE Computer Science And Engineering Final Year. I Adore Designing User-Friendly Websites that are both simple and Elegant Yet Scalable. I consider myself to be a lifelong learner.
+                    <p>I'm a Software Developer. I am Currently Pursuing BE Computer Science And Engineering Final Year.
+                        I Adore Designing User-Friendly Websites that are both simple and Elegant Yet Scalable. I
+                        consider myself to be a lifelong learner.
 
-                        I Build Front-end  Applications primarily with React and apply modern HTML5 and CSS3 Techniques or responsive layouts and progressive enhancement.
+                        I Build Front-end Applications primarily with React and apply modern HTML5 and CSS3 Techniques
+                        or responsive layouts and progressive enhancement.
 
-                        I am Actively seeking Opportunities within Software Developer Roll, Where I can contribute to building Meaningful user Experiences and Scalable Systems.
+                        I am Actively seeking Opportunities within Software Developer Roll, Where I can contribute to
+                        building Meaningful user Experiences and Scalable Systems.
                     </p>
 
                     <div class="tab-titles">
@@ -175,7 +179,8 @@
                     <p><img src="images/paper-plane.png" alt="Mail">itsajith005@gmail.com</p>
                     <p><img src="images/phone-call.png" alt="call">+91 86106 34862</p>
                     <div class="social-icons">
-                        <a href="https://www.instagram.com/itsajith00?utm_source=qr&igsh=MTBrMXJzdTJqd2xsbw=="><img src="images/instagram (1).png" alt=""></a>
+                        <a href="https://www.instagram.com/itsajith00?utm_source=qr&igsh=MTBrMXJzdTJqd2xsbw=="><img
+                                src="images/instagram (1).png" alt=""></a>
                         <a href="https://wa.me/qr/VCV7OGCCFVHEP1"><img src="images/whatsapp.png" alt=""></a>
                         <a href="https://www.linkedin.com/in/ajithkumar-be"><img src="images/linkedin.png" alt=""></a>
                         <a href="https://github.com/ajithkumar-ravi"><img src="images/github (1).png" alt=""></a>
@@ -184,7 +189,7 @@
                         CV</a>
                 </div>
                 <div class="contact-right">
-                    <form>
+                    <form name="submit-to-google-sheet">
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="email" name="Email" placeholder="Your Email" required>
                         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
@@ -200,6 +205,17 @@
     </div>
 
     <script src="script.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzGdMHjfRtykyyICnuIZWixJYEOkx0fOTRDRKGnpn4n5R3UvUvFAw8p-OSvCoHgzL9V/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
 </body>
 
 </html>
