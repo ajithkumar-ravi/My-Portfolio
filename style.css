@@ -56,8 +56,6 @@ nav {
     border-radius: 10%;
     left: 50px;
     margin-left: 20px;
-
-
 }
 
 nav ul li {
@@ -535,9 +533,12 @@ nav .fas {
     .copyright {
         font-size: 14px;
     }
+    
 
 
 }
+
+/* Message color */
 
 #msg {
     color: #61b752;
